@@ -1,0 +1,293 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: rgb(240, 97, 97);
+  display: flex;
+}
+.pic {
+  width: 30%;
+}
+.pic img {
+  margin: 30px;
+  padding-left: 40px;
+}.navBar{
+  width: 70%;
+  height: 100px;
+
+}
+.navBar ul{
+  display: flex;
+  margin: 30px;
+
+}
+.navBar ul li{
+  padding-left: 40px;
+   list-style: none;
+   margin-right: 30px;
+}
+.navBar ul li a{
+ 
+  text-decoration: none;
+  color: rgb(14, 13, 13);
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+}
+.navBar a:hover{
+
+  color: gold;
+  
+}
+
+
+.drop{
+  background-color:rgb(235, 99, 99);
+  color: white;
+  font-size: 20px;
+  border : none;
+  cursor: pointer;
+}
+
+.category{
+  position: relative;
+  display: inline-block;
+  
+}
+.drop-content{
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width:130px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+   border: 2px solid;
+  border-image: linear-gradient(45deg,rgb(53, 187, 147),rgb(0, 255, 128),rgb(0, 110, 255));
+  border-image-slice: 1;
+}
+.drop-content a{
+  font-size: 10px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color:rgb(0, 110, 255);
+ 
+}
+.drop-content a:hover{
+  background-color: #e25656;
+ 
+}
+.category:hover .drop-content{
+  display: block;
+}
+.drop:hover .drop{
+  background-color: #3e8e41;
+}
+
+.moveable {
+  width: 100%;
+  height: 20px;
+  background-image: linear-gradient(rgb(158, 159, 168), white);
+}
+.moveable p {
+  font-size: 33px;
+}
+.text {
+  margin-top: 40px;
+}
+.contain {
+  display: flex;
+}
+.Right {
+  width: 50%;
+}
+.RightText h1 {
+  width: 300px;
+  margin-top: 120px;
+  font-size: 70px;
+  font-family: "Lora", serif;
+  background-color: coral;
+}
+.pic {
+  display: flex;
+}
+
+.line {
+  margin-left: 30px;
+  color: wheat;
+  border-left: 2px solid rgb(182, 180, 180);
+  height: 715px;
+}
+.Buy {
+  width: 100%;
+  height: 80px;
+  background-image: url("https://th.bing.com/th/id/R.7019d749bfe19d0704eecbe53b2e0d0f?rik=1MJi72NTkEEZ4Q&pid=ImgRaw&r=0");
+  background-position: top center;
+  position: relative;
+}
+.btn button {
+  border: 3px solid crimson;
+  margin-left: 600px;
+  margin-top: 15px;
+  width: 150px;
+  background-color: transparent;
+  color: crimson;
+  border-radius: 5px;
+}
+
+.btn button:hover {
+  background-color: crimson;
+  color: white;
+  transition: all 1s;
+}
+.detail {
+  width: 100%;
+}
+.l i{
+  color: crimson;
+}
+.l{
+  width: 100px;
+  height: 300px;
+  padding-top: 80px;
+}
+.l li i{
+  font-size:30px;
+  margin-top: 30px;
+  margin-left: 60px;
+  padding-top: 9px;
+
+}
+.l li{
+ list-style: none;
+}
+.l li a{
+  text-align: center;
+  
+}
+.l li i{
+  border: 1px solid crimson;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  
+}
+.l li i:hover{
+  background-color:crimson;
+  color: white;
+  border: crimson;
+  transition: all 1s;
+}
+.first{
+  display: flex;
+}
+.first .facebook{
+  display: none;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+.facebook{
+  border: 1px solid crimson;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+}
+
+.first .face:hover + .facebook{
+  display: block;
+  color:rgb(240, 97, 97);
+}
+
+
+.second{
+  display: flex;
+}
+.second .instagram{
+  display: none;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+.instagram{
+  border: 1px solid crimson;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+}
+
+.second .insta:hover + .instagram{
+  display: block;
+  color:rgb(240, 97, 97);
+}
+
+
+.third{
+  display: flex;
+}
+.third .twitter{
+  display: none;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+.twitter{
+  border: 1px solid crimson;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+}
+
+.third .twi:hover + .twitter{
+  display: block;
+  color:rgb(240, 97, 97);
+}
+
+
+.fourth{
+  display: flex;
+}
+.fourth .youtube{
+  display: none;
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+.youtube{
+  border: 1px solid crimson;
+  border-radius: 7px;
+  padding: 5px 5px 5px 5px;
+}
+
+.fourth .yout:hover + .youtube{
+  display: block;
+  color:rgb(240, 97, 97);
+}
+.r{
+  width: 25%;
+  height: auto;
+}
+.r button{
+  margin-top: 200px;
+  border: 1px solid red;
+  border-radius: 15px;
+  background-color: crimson;
+  color: white;
+  padding-left: 50px;
+
+
+}
+.row.line2{
+  margin-left: 30px;
+  color: wheat;
+  border-left: 2px solid rgb(182, 180, 180);
+  height: 715px;
+}
+.whole{
+  display: flex;
+  
+}
+.whole a{
+  text-decoration: none;
+  padding-left: 10px;
+}
+
